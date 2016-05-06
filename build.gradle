@@ -1,0 +1,36 @@
+apply plugin: 'scala'
+apply plugin: 'eu.appsatori.fatjar'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'eu.appsatori:gradle-fatjar-plugin:0.3'
+    }
+}
+repositories {
+    mavenCentral()
+}
+ext {
+    scala_version = '2.11.0'
+    logback_version = '1.0.13'
+    scala_logging_version = '3.4.0'
+    spray_version = '1.3.1'
+    junit_version = '4.11'
+    scalatest_version = '3.0.0-M15'
+}
+dependencies {
+    compile "org.scala-lang:scala-library:$scala_version"
+    compile "ch.qos.logback:logback-classic:$logback_version"
+    compile "com.typesafe.scala-logging:scala-logging_2.11:$scala_logging_version"
+    compile "io.spray:spray-json_2.11:$spray_version"
+    compile "io.spray:spray-can_2.11:$spray_version"
+    compile "io.spray:spray-routing_2.11:$spray_version"
+    compile "io.spray:spray-testkit_2.11:$spray_version"
+
+    testCompile "junit:junit:$junit_version"
+    testCompile "org.scalatest:scalatest_2.11:$scalatest_version"
+}
+

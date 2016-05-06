@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka.iml" filepath="$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka_main.iml" group="Scala-Akka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/384747736/Scala-Akka_test.iml" group="Scala-Akka" />
+    </modules>
+  </component>
+</project>
