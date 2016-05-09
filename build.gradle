@@ -26,10 +26,10 @@ dependencies {
     compile "ch.qos.logback:logback-classic:$logback_version"
     compile "com.typesafe.scala-logging:scala-logging_2.11:$scala_logging_version"
     compile "io.spray:spray-json_2.11:$spray_version"
-    compile "io.spray:spray-can_2.11:$spray_version"
+    compile "io.spray:spray-can:$spray_version"
     compile "io.spray:spray-routing_2.11:$spray_version"
+    compile "io.spray:spray-client:$spray_version"
     compile "io.spray:spray-testkit_2.11:$spray_version"
-
     testCompile "junit:junit:$junit_version"
     testCompile "org.scalatest:scalatest_2.11:$scalatest_version"
 }
